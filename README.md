@@ -19,8 +19,8 @@ curl -L "https://packages.cloudfoundry.org/stable?release=macosx64-binary&source
 mv cf /usr/local/bin
 cf --version {Verify}
 
-
-2. Register for Using PWS  @- https://account.run.pivotal.io/z/uaa/sign-up for a free trial account
+2. 
+Register for Using PWS  @- https://account.run.pivotal.io/z/uaa/sign-up for a free trial account
 
 3.
 Login and logout from PWS Console using CLI - configured at Step 1
@@ -32,12 +32,9 @@ After giving command, it will ask for registered email and password and once pro
 Logout from PWS Console – We will use command cf logout to logout from the platform, once we have all the work done for that session.
 
 4.
-
 Push Application to Console
-
 cf push nameofapp@cloudprovider -p target\spring-{#####}SNAPSHOT.jar
 
 5.
-
 Verify app deployment status @ CLI Console and also get the registered https hostname of the running app(if applicable) from PWS dashboard.
 
