@@ -1,5 +1,5 @@
 # SpringBootHTTPSMicroservice
-SpringBootHTTPSMicroservice
+SpringBoot - HTTPS - Microservice + Cloud Deployement
 
 
 *** SSL Disabled as of now 
@@ -14,7 +14,7 @@ keytool -genkey -alias samrat-springboot-https -storetype JKS -keyalg RSA -keysi
 Steps.
 Configure CF CLI
 1.
-# ...download & extract Mac OS X binary
+...download & extract Mac OS X binary
 curl -L "https://packages.cloudfoundry.org/stable?release=macosx64-binary&source=github" | tar -zx
 mv cf /usr/local/bin
 cf --version {Verify}
