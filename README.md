@@ -13,6 +13,7 @@ keytool -genkey -alias samrat-springboot-https -storetype JKS -keyalg RSA -keysi
 *** Deploy it to PWS - CLoudFoundry
 Steps.
 Configure CF CLI
+
 1.
 ...download & extract Mac OS X binary
 curl -L "https://packages.cloudfoundry.org/stable?release=macosx64-binary&source=github" | tar -zx
