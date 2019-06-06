@@ -1,5 +1,5 @@
 # SpringBootHTTPSMicroservice
-SpringBoot - HTTPS - Microservice + Cloud Deployement
+SpringBoot - HTTPS - Microservice + Cloud Deployment
 
 
 *** SSL Disabled as of now 
